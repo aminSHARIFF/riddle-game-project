@@ -87,7 +87,7 @@ function RiddlePanel({ setScreen, setIsCorrect }) {
     if (ans === currentRiddle.correct) {
       const nextIndex = index + 1;
 
-      setFeedback("Correct! +50 points");
+      setFeedback("Correct!");
       setScore(score + 50);
       setLevel(level + 1);
       setWrongAnswer(null);
