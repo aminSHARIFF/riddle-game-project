@@ -91,9 +91,8 @@ function RiddlePanel({ setScreen, setIsCorrect }) {
       setScore(score + 50);
       setLevel(level + 1);
       setWrongAnswer(null);
-      setShowHint(false);
-      setTriesLeft(2);
-      setHasAnsweredCorrectly(true);
+setShowHint(false);
+setHasAnsweredCorrectly(true);
 
       setTimeout(() => {
         if (nextIndex >= riddles.length) {

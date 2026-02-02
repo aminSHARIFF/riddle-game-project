@@ -23,7 +23,7 @@ function LandingPage({ isCorrect, setScreen }) {
         ) : (
           <>
             <h2>Game Over</h2>
-            <p>The portal remains sealed.</p>
+            <p></p>
             <p>Reflect, and try again.</p>
           </>
         )}
